@@ -9,7 +9,7 @@ function ImageList({ imageProp }) {
   });
 
   return <div className="grid-container">
-    {showImages}
+    <div className="image" >{showImages}</div>
   </div>
 }
 
