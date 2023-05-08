@@ -8,9 +8,7 @@ function ImageList({ imageProp }) {
     return <ImageShow imageInfo = {oneImage}/>
   });
 
-  return <div className="grid-container">
-    <div className="image" >{showImages}</div>
-  </div>
+  return <div className="image-list" >{showImages}</div>
 }
 
 export default ImageList;

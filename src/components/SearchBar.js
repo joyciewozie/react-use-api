@@ -17,9 +17,10 @@ function SearchBar({onSubmit}) {
 
 
   return (
-  <div>
+  <div className="search-box">
+    <label>Enter a search term</label>
     <form onSubmit={handleFormSubmit}>
-     <input className="search-bar" value={term} onChange={handleChange} />
+     <input className="search-bar"value={term} onChange={handleChange} />
     </form>
   </div>
   );
